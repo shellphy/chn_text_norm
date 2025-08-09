@@ -14,4 +14,4 @@ dependencies = []
 Homepage = "https://example.com/chn-text-norm"
 
 [tool.hatch.build.targets.wheel]
-packages = ["chn_text_norm"]
+packages = ["src/chn_text_norm"]
