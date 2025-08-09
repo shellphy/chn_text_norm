@@ -1,7 +1,17 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
 [project]
-name = "test"
+name = "chn-text-norm"
 version = "0.1.0"
-description = "Add your description here"
+description = "中文文本数字/日期/金额/百分比/分数/电话等的正则化工具"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = []
+
+[project.urls]
+Homepage = "https://example.com/chn-text-norm"
+
+[tool.hatch.build.targets.wheel]
+packages = ["chn_text_norm"]
